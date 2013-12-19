@@ -6,7 +6,9 @@
     <string name="title_section1">Hauptseite</string>
     <string name="title_section2">Nachricht</string>
     <string name="title_section3">Aufgabe</string>
-    <string name="title_section4">Foto</string><string name="welcome">Willkommen zur Silvesterparty 2013!</string>
+    <string name="title_section4">Foto</string>
+    <string name="welcome">Willkommen zur Silvesterparty 2013!</string>
+	<string name="beschreibung">Hier könnt ihr die aktuelle Uhrzeit sehen, Nachrichten &amp; Aufgaben abschicken und natürlich Bilder hochladen.</string>
     
 
 </resources>
