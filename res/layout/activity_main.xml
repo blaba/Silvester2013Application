@@ -1,8 +1,36 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:columnCount="4"
+    android:orientation="horizontal"
     tools:context=".MainActivity"
-    tools:ignore="MergeRootFrame" />
+    tools:ignore="MergeRootFrame" >
 
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/welcome"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <AnalogClock
+        android:id="@+id/analogClock1"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal"
+        android:layout_row="2" />
+
+    <Space
+        android:layout_column="3"
+        android:layout_gravity="fill_vertical"
+        android:layout_row="1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_column="0"
+        android:layout_gravity="center_vertical"
+        android:layout_row="3"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</GridLayout>
